@@ -1,0 +1,54 @@
+h1 {
+  background-color: darkgreen;
+}
+
+.bottom-container {
+  background-color: darkred;
+}
+
+.p1 {
+  background-color: orange;
+  display: inline;
+}
+
+.p2 {
+  background-color: blue;
+  display: inline;
+}
+
+p {
+  background-color: grey;
+  display: inline-block;
+  width: 30%;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.red {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  /* Position relative is a position relative to the original positioning of the elemtent.
+    Position absolute is a position relative to its parent element */
+  position: relative;
+  left: 200px;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  right: 200px;
+}
+
+.blue {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
